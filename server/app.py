@@ -14,7 +14,7 @@ def user(text):
     return text
 
 @app.route('/count/<int:number>')
-def count(number):
+def counter(number):
     count = ''
     for (i) in range(number):
         count += f'{i}\n'
